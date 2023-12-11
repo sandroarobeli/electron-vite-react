@@ -1,0 +1,28 @@
+{
+  "name": "electron-vite-react",
+  "version": "1.0.0",
+  "description": "electron app using react, bootstrapped by vite",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev -w",
+    "prebuild": "electron-vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandroarobeli/electron-vite-react.git"
+  },
+  "keywords": [
+    "electron-vite",
+    "react"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandroarobeli/electron-vite-react/issues"
+  },
+  "homepage": "https://github.com/sandroarobeli/electron-vite-react#readme",
+  "devDependencies": {
+    "electron-vite": "^1.0.29"
+  }
+}
